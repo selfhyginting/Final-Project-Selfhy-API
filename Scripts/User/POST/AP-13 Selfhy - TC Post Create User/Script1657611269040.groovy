@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-13 Selfhy - TC Post Create User.feature')
+
+WS.sendRequestAndVerify(findTestObject('POST/Create User'))
+
