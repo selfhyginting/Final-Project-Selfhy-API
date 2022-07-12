@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-19 Selfhy - TC Register Successful.feature')
 
-WS.sendRequestAndVerify(findTestObject(null))
+WS.sendRequestAndVerify(findTestObject('POST/Register User'))
 
