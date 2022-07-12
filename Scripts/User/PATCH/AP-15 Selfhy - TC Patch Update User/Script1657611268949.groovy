@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-15 Selfhy - TC Patch Update User.feature')
+
+WS.sendRequestAndVerify(findTestObject('PATCH/Update User'))
+
