@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-16 Selfhy - TC Delete User.feature')
+
+WS.sendRequestAndVerify(findTestObject('DELETE/Delete User'))
+
