@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-20 Selfhy - TC Register Unsuccessful.feature')
+
+WS.sendRequestAndVerify(findTestObject('POST/Register User Unsuccessful'))
+
