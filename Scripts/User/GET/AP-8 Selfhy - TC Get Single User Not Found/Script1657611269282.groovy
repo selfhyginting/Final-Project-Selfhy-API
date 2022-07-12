@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-8 Selfhy - TC Get Single User Not Found.feature')
+
+WS.sendRequestAndVerify(findTestObject('GET/Single User Not Found'))
+

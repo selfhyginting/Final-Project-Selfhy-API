@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-7 Selfhy - TC Get Single User.feature')
+
+WS.sendRequestAndVerify(findTestObject('GET/Single User'))
+

@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-19 Selfhy - TC Register Successful.feature')
+
+WS.sendRequestAndVerify(findTestObject(null))
+

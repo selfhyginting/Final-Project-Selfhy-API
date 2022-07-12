@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/AP-9 Selfhy - TC Get List User Delayed.feature')
+
+WS.sendRequestAndVerify(findTestObject('GET/List User Delayed'))
+
